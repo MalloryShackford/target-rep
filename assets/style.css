@@ -180,8 +180,19 @@ a:hover {
     max-height: 100%;
 }
 
-@media (max-width: 767px) {
-    .card .img-wrapper {
-        height: auto;
+/* Media Queries */
+@media screen and (max-width: 500px) {
+  .bottom-left{
+    font-size: .5rem;
+  }
+  .bottom-left-btn {
+    font-size: .5rem;
+  }
+}
+@media screen and (max-width:900px){
+    .bottom-left{
+    display: none;
     }
-} */
+  .bottom-left-btn {
+    font-size: .8rem;
+  }}
